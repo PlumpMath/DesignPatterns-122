@@ -41,6 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Address.cs" />
+    <Compile Include="Contact.cs" />
+    <Compile Include="FullTimeEmployeeBuilder.cs" />
+    <Compile Include="IBuilder.cs" />
+    <Compile Include="PartTimeEmployeeBuilder.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
