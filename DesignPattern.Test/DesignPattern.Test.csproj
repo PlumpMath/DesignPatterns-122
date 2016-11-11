@@ -53,12 +53,7 @@
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\FactoryPattern\FactoryPattern.csproj">
-      <Project>{4FBCCC4D-C292-40A9-9464-87AFBE4A5316}</Project>
-      <Name>FactoryPattern</Name>
-    </ProjectReference>
-  </ItemGroup>
+ 
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
