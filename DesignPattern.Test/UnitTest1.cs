@@ -15,6 +15,23 @@ namespace DesignPattern.Test
 
 
 
+        [TestMethod]
+        public void TestMethod1()
+        {
+
+            string test = null;
+            Assert.IsNull(test);
+        }
+
+
+        [TestMethod]
+        public void TestMethod1()
+        {
+
+            bool isvalid = true;
+            Assert.IsFalse(isvalid);
+        }
+
 
         //[TestMethod]
         //public void FactoryPattern_FactoryCreator_GetFactory_HeroFactory()
