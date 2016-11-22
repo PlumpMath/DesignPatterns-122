@@ -16,7 +16,7 @@ namespace DesignPattern.Test
 
 
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethod2()
         {
 
             string test = null;
@@ -25,7 +25,7 @@ namespace DesignPattern.Test
 
 
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethod3()
         {
 
             bool isvalid = true;
