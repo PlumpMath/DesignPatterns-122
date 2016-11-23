@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FactoryPattern">
+      <HintPath>..\References\FactoryPattern.exe</HintPath>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>

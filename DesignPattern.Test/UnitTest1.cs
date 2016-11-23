@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using FactoryPattern;
 
 namespace DesignPattern.Test
 {
@@ -33,29 +34,29 @@ namespace DesignPattern.Test
         }
 
 
-        //[TestMethod]
-        //public void FactoryPattern_FactoryCreator_GetFactory_HeroFactory()
-        //{
-        //    FactoryCreator factory = new FactoryCreator();
-        //    var result  = factory.GetBike("hero");
-        //    Assert.IsNotNull(result);
-        //}
+        [TestMethod]
+        public void FactoryPattern_FactoryCreator_GetFactory_HeroFactory()
+        {
+            FactoryCreator factory = new FactoryCreator();
+            var result = factory.GetBike("hero");
+            Assert.IsNotNull(result);
+        }
 
 
-        //[TestMethod]
-        //public void FactoryPattern_FactoryCreator_GetFactory_HondaFactory()
-        //{
-        //    FactoryCreator factory = new FactoryCreator();
-        //    var result = factory.GetBike("honda");
-        //    Assert.IsNotNull(result);
-        //}
+        [TestMethod]
+        public void FactoryPattern_FactoryCreator_GetFactory_HondaFactory()
+        {
+            FactoryCreator factory = new FactoryCreator();
+            var result = factory.GetBike("honda");
+            Assert.IsNotNull(result);
+        }
 
-        //[TestMethod]
-        //public void FactoryPattern_FactoryCreator_GetFactory_YamahaFactory()
-        //{
-        //    FactoryCreator factory = new FactoryCreator();
-        //    var result = factory.GetBike("yamaha");
-        //    Assert.IsNotNull(result);
-        //}
+        [TestMethod]
+        public void FactoryPattern_FactoryCreator_GetFactory_YamahaFactory()
+        {
+            FactoryCreator factory = new FactoryCreator();
+            var result = factory.GetBike("yamaha");
+            Assert.IsNotNull(result);
+        }
     }
 }
