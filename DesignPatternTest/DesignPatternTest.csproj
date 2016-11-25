@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B9520DFF-A23A-4D8C-823E-1B3DDC5AE523}</ProjectGuid>
+    <ProjectGuid>{6CB9F12B-BBAD-4F78-B122-C8582C384F8A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DesignPattern.Test</RootNamespace>
-    <AssemblyName>DesignPattern.Test</AssemblyName>
+    <RootNamespace>DesignPatternTest</RootNamespace>
+    <AssemblyName>DesignPatternTest</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -36,7 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FactoryPattern">
-      <HintPath>..\References\FactoryPattern.exe</HintPath>
+      <HintPath>..\References\FactoryPattern.dll</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>

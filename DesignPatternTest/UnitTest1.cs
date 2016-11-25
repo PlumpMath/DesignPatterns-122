@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using FactoryPattern;
 
-namespace DesignPattern.Test
+namespace DesignPatternTest
 {
     [TestClass]
     public class UnitTest1
