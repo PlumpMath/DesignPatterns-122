@@ -1,6 +1,7 @@
-﻿using System;
+﻿using FactoryPattern;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using FactoryPattern;
+using System;
+
 
 namespace DesignPatternTest
 {
