@@ -12,7 +12,7 @@ namespace DesignPatternTest
         public void TestMethod1()
         {
 
-            Assert.IsNotNull("Test");
+            Assert.IsNotNull("Test")
         }
 
 
