@@ -32,5 +32,13 @@ namespace DesignPatternTest
             var result = factory.GetBike("yamaha");
             Assert.IsNotNull(result);
         }
+
+        [TestMethod]
+        public void FactoryPattern_FactoryCreator_GetFactory_InvalidFactory()
+        {
+            FactoryCreator factory = new FactoryCreator();
+            var result = factory.GetBike("Test");
+            Assert.IsNotNull(result);
+        }
     }
 }
