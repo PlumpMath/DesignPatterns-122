@@ -6,35 +6,8 @@ using System;
 namespace DesignPatternTest
 {
     [TestClass]
-    public class UnitTest1
+    public class UnitTestClass
     {
-        [TestMethod]
-        public void TestMethod1()
-        {
-
-            Assert.IsNotNull("Test")
-        }
-
-
-
-        [TestMethod]
-        public void TestMethod2()
-        {
-
-            string test = null;
-            Assert.IsNull(test);
-        }
-
-
-        [TestMethod]
-        public void TestMethod3()
-        {
-
-            bool isvalid = true;
-            //Assert.IsFalse(isvalid);
-        }
-
-
         [TestMethod]
         public void FactoryPattern_FactoryCreator_GetFactory_HeroFactory()
         {
