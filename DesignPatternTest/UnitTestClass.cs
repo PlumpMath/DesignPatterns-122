@@ -34,6 +34,7 @@ namespace DesignPatternTest
         }
 
         [TestMethod]
+        [Ignore]
         public void FactoryPattern_FactoryCreator_GetFactory_InvalidFactory()
         {
             FactoryCreator factory = new FactoryCreator();
